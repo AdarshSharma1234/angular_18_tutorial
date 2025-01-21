@@ -35,17 +35,17 @@
     <div class="col-3">
         Original Value - {{currentDate |date:'dd-MM-yyyy'}}
         <br/>
-        after Pipe --{{currentDate |date:'dd-MM-yy'}}
+        after Pipe --{{currentDate |date:'dd-MM-yyyy'}}
     </div>
     <div class="col-3">
-        Original Value - {{currentDate |date:'dd-MMM-yy'}}
+        Original Value - {{currentDate |date:'dd-MMM-yyyy'}}
         <br/>
-        after Pipe -{{currentDate |date:'dd/MMM/yy'}}
+        after Pipe -{{currentDate |date:'dd/MMM/yyyy'}}
     </div>
     <div class="col-3">
-        Original Value - 
+        Original Value - {{a}},{{b}}
         <br/>
-        after Pipe -
+        after Pipe - {{a | percent}},{{b | percent}}
     </div>
 </div>
 <div class="row">
@@ -62,6 +62,7 @@
     <div class="col-3">
         Original Value - {{student.state}}
         <br/>
-        after Pipe - {{student.state |na}}
+        after Pipe - {{student.state |na}} 
+        <!-- value!== undifind,value!== null,value!== '' -->
     </div>
 </div>
