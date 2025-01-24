@@ -20,9 +20,9 @@ export class PipeComponent {
   currentTime: Observable<Date> = new Observable<Date>;
 
   student: any = {
-    name: 'Chetan',
-    city: 'Pune',
-    empId: 323,
+    name: 'Adarsh',
+    city: 'Lucknow',
+    empId: 929,
     state: undefined
   };
   currentRole: string = '';

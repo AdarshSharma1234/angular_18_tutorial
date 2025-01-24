@@ -37,72 +37,87 @@ export const routes: Routes = [
         children:[
             {
                 path:'add-emp',
-                component: AddEmployeeComponent
+                component: AddEmployeeComponent,
             },
             {
                 path:'signal',
-                component: SignalComponent
+                component: SignalComponent,
+
             },
             {
                 path:'data-binding',
                 component:DataBindingComponent,
-                canActivate: [authGuard]
+                
             },
             {
                 path:'emp-list',
-                component: EmployeeListComponent
+                component: EmployeeListComponent,
+                
             },
             {
                 path:'structural-dir',
-                component: StructuralDirComponent
+                component: StructuralDirComponent,
+                
             },
             {
                 path: 'attributedirective',
-                component: AttributeDirectiveComponent
+                component: AttributeDirectiveComponent,
+                
             },
             {
                 path: 'if-else',
-                component: IfelseComponent
+                component: IfelseComponent,
+                
             },
             {
                 path: 'for',
-                component: ForComponent
+                component: ForComponent,
+                
             },
             {
                 path: 'pipe',
-                component: PipeComponent
+                component: PipeComponent,
+                
             },
             {
                 path: 'template-form',
-                component: TemplateComponent
+                component: TemplateComponent,
+                
             },
             {
                 path: 'reactive-form',
-                component: ReactiveComponent
+                component: ReactiveComponent,
+                
             },
             {
                 path: 'get-api',
-                component: GetAPIComponent
+                component: GetAPIComponent,
+                
             },
             {
                 path: 'post-api',
-                component: PostAPIComponent
+                component: PostAPIComponent,
+                
             },
             {
                 path: 'Life-cycle',
-                component: LifecycleEventComponent
+                component: LifecycleEventComponent,
+                
             },
             {
                 path: 'ng-template',
-                component: NgtemplateComponent
+                component: NgtemplateComponent,
+                
             },
             {
                 path: 'ng-container',
-                component: NgcontainerComponent
+                component: NgcontainerComponent,
+                
             },
             {
                 path: 'viewChild',
-                component: ViewchildComponent
+                component: ViewchildComponent,
+                
             }
         
         ]
