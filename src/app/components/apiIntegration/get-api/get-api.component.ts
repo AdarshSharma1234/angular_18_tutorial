@@ -23,22 +23,17 @@ export class GetAPIComponent {
   changeMSg() {
     this.alertMsg = 'user Alert'
   }
-
   getAllUser() {
-    debugger;
-    this.http.get("https://jsonplaceholder.typicode.com/users").subscribe((result:any)=>{
+    this.http.get("http://localhost:3001/api/users").subscribe((result:any)=>{
       debugger;
       this.userList = result;
     })
   }
 
   getAllCustomer() {
-    debugger;
     this.http.get("https://projectapi.gerasim.in/api/PropertyBookingController/GetAllCustomer").subscribe((res:any)=>{
-      debugger;
       this.customerList =  res.data;
     }, error=>{
-      debugger;
     })
   }
 
